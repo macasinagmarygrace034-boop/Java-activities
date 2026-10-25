@@ -11,7 +11,7 @@ package datatypesandvariables;
 public class Type_Safe_Shopping_Calculator {
       public static void main(String[] args) {
        
-        String name = "Sari-Sari Store ni Aling Nena";
+        String name = "Sari-Sari Store ni Aling Marites";
         int qty = 3;
         double Price = 25.50; 
 
