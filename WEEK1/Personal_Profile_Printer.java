@@ -17,7 +17,7 @@ public class Personal_Profile_Printer {
         boolean isStudent = true;
 
         // 1 Reference type
-        String fullName = "Juan dela Cruz";
+        String fullName = "Macasinag, Mary Grace";
 
         // Printing with clear labels
         System.out.println("--- Personal Profile ---");
