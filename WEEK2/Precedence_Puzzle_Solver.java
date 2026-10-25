@@ -16,24 +16,19 @@ public class Precedence_Puzzle_Solver {
  
         System.out.println("--- Precedence Puzzle Results ---");
 
-        // Expression 1: 
         // PREDICTED RESULT: true
         boolean res1 = a + 5 == b;
         System.out.println("Expression 1 Actual: " + res1);
 
-
-        // Expression 2: 
         // PREDICTED RESULT: false
         boolean res2 = ++a > 5 && b-- < 12;
         System.out.println("Expression 2 Actual: " + res2);
 
-
-        // Expression 3:
         // PREDICTED RESULT: false
         boolean res3 = b - a * 2 > 0 || true && false;
         System.out.println("Expression 3 Actual: " + res3);
  
-        // Follow-up comment for Expression 3:
+        // Follow-up comment 
         // Mali ang prediction ko rito dahil nakalimutan ko na mas mataas ang precedence ng Multiplicative
         // kaysa sa Subtraction, at mas mataas din ang Logical AND (&&) kaysa sa Logical OR (||).
     }
